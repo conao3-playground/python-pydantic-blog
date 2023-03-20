@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pydantic-blog"
+version = "0.1.0"
+description = ""
+authors = ["Naoya Yamashita <conao3@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.10.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
